@@ -3,3 +3,4 @@ unzip browny.zip
 mv browny-v1.0 browny
 rm -rf browny.zip
 aws s3 cp browny s3://browny-demo/browny --recursive
+rm -rf browny
